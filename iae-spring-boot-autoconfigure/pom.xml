@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.iae.spring.boot</groupId>
 	<artifactId>iae-spring-boot-autoconfigure</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>iae-spring-boot-autoconfigure</name>
 	<description>iae-spring-boot-autoconfigure</description>
 	<properties>
@@ -45,6 +45,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
