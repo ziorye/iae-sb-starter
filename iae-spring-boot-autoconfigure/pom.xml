@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.iae.spring.boot</groupId>
 	<artifactId>iae-spring-boot-autoconfigure</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 	<name>iae-spring-boot-autoconfigure</name>
 	<description>iae-spring-boot-autoconfigure</description>
 	<properties>
